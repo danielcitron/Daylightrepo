@@ -3,12 +3,18 @@ Organize Your Inspiration
 
 
 A. Daniel Citron
+
 B. Quincy, Stone Hall, N207
+
 C. [daylight.cc][1]
+
 D. [https://github.com/danielcitron/Daylightrepo/][2]
+
 E. Daylight: Organize Your Inspiration
 
 Daylight is designed to be an online space for organizing what inspires you. The site is broken down into boards, allowing the user to create different boards for different projects, subjects or anything they'd like. The user can share their boards with others and others can collaborate with them by adding their own blocks. Blocks can be text or images. The user can subscribe to others boards as well. 
+
+
 
 Implemented Pages-\>
 Login/Register
