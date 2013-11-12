@@ -1,0 +1,149 @@
+[2013-11-04 00:02:00] log.ERROR: 500 - View [admin/blogs/create_edit] not found. @ /admin/blogs/create
+exception 'InvalidArgumentException' with message 'View [admin/blogs/create_edit] not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:135
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(76): Illuminate\View\FileViewFinder->findInPaths('admin/blogs/cre...', Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/robclancy/presenter/src/Robbo/Presenter/View/Environment.php(46): Illuminate\View\FileViewFinder->find('admin/blogs/cre...')
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(209): Robbo\Presenter\View\Environment->make('admin/blogs/cre...', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/admin/AdminBlogsController.php(50): Illuminate\Support\Facades\Facade::__callStatic('make', Array)
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/admin/AdminBlogsController.php(50): Illuminate\Support\Facades\View::make('admin/blogs/cre...', Array)
+#5 [internal function]: AdminBlogsController->getCreate()
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getCreate', Array)
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getCreate', Array)
+#9 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#12 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#13 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#14 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#15 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#16 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#17 {main} [] []
+[2013-11-04 00:02:04] log.ERROR: 404 - Controller method not found. @ /admin/blocks/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []
+[2013-11-04 00:02:13] log.ERROR: 404 - Controller method not found. @ /admin/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []
+[2013-11-04 00:02:17] log.ERROR: 404 - Controller method not found. @ /admin/blocks/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []
+[2013-11-04 00:02:19] log.ERROR: 404 - Controller method not found. @ /admin/blocks/create_edit
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []
+[2013-11-04 00:02:27] log.ERROR: 404 - Controller method not found. @ /admin/blogs/create_edit
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []
+[2013-11-04 00:02:29] log.ERROR: 404 - Controller method not found. @ /admin/blogs/lib/css/wysiwyg-color.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []
+[2013-11-04 00:42:56] log.ERROR: 404 - Controller method not found. @ /admin/blogs/lib/css/wysiwyg-color.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []
+[2013-11-04 00:43:39] log.ERROR: 404 - Controller method not found. @ /admin/blogs/lib/css/wysiwyg-color.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []

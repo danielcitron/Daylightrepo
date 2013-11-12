@@ -1,0 +1,8 @@
+[2013-11-02 17:17:40] log.ERROR: 500 - There are no commands defined in the "bundle" namespace. @ /
+exception 'InvalidArgumentException' with message 'There are no commands defined in the "bundle" namespace.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php:523
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(561): Symfony\Component\Console\Application->findNamespace('bundle')
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(188): Symfony\Component\Console\Application->find('bundle:install')
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/symfony/console/Symfony/Component/Console/Application.php(121): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/artisan(59): Symfony\Component\Console\Application->run()
+#4 {main} [] []

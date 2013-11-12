@@ -1,0 +1,393 @@
+[2013-11-01 03:21:31] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 03:21:31] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 03:22:11] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 03:22:11] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:12:16] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:12:16] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:12:26] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:12:26] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:12:56] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:12:56] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:15:31] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:15:31] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:23:53] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:23:53] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:26:42] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:26:42] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:52:37] log.ERROR: 500 - SQLSTATE[HY000] [1045] Access denied for user 'user'@'localhost' (using password: YES) @ /
+exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'user'@'localhost' (using password: YES)' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'user', 'mamp', Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2455): Illuminate\Database\DatabaseManager->connection(NULL)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2421): Illuminate\Database\Eloquent\Model::resolveConnection(NULL)
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1510): Illuminate\Database\Eloquent\Model->getConnection()
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1444): Illuminate\Database\Eloquent\Model->newBaseQueryBuilder()
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2634): Illuminate\Database\Eloquent\Model->newQuery()
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/BlogController.php(38): Illuminate\Database\Eloquent\Model->__call('orderBy', Array)
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/BlogController.php(38): Post->orderBy('created_at', 'DESC')
+#12 [internal function]: BlogController->getIndex()
+#13 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#14 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getIndex', Array)
+#15 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getIndex', Array)
+#16 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#17 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#18 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#19 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#20 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#21 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#22 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#23 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#24 {main} [] []
+[2013-11-01 05:53:21] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:53:21] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:53:27] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:53:27] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:54:29] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 05:54:30] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 06:14:21] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 06:14:21] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 06:24:35] log.ERROR: 500 - Undefined variable: user @ /user
+exception 'ErrorException' with message 'Undefined variable: user' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/user/UserController.php:46
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/user/UserController.php(46): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/Users/danielci...', 46, Array)
+#1 [internal function]: UserController->postIndex()
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#13 {main} [] []
+[2013-11-01 15:40:13] log.ERROR: 500 - Undefined variable: user @ /user
+exception 'ErrorException' with message 'Undefined variable: user' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/user/UserController.php:46
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/user/UserController.php(46): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/Users/danielci...', 46, Array)
+#1 [internal function]: UserController->postIndex()
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#5 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#12 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#13 {main} [] []
+[2013-11-01 15:52:22] log.ERROR: 500 - Undefined property: AdminDashboardController::$whitelist @ /admin
+exception 'ErrorException' with message 'Undefined property: AdminDashboardController::$whitelist' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/AdminController.php:15
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/AdminController.php(15): Illuminate\Exception\Handler->handleError(8, 'Undefined prope...', '/Users/danielci...', 15, Array)
+#1 [internal function]: AdminController->__construct()
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(330): ReflectionClass->newInstanceArgs(Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Container/Container.php(243): Illuminate\Container\Container->build('AdminDashboardC...', Array)
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(478): Illuminate\Container\Container->make('AdminDashboardC...', Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(983): Illuminate\Foundation\Application->make('AdminDashboardC...')
+#6 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#12 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#14 {main} [] []
+[2013-11-01 15:53:01] log.ERROR: 500 - syntax error, unexpected ')' @ /admin
+exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ')'' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/app/controllers/AdminController.php:15
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2013-11-01 15:54:13] log.ERROR: 404 - Exception @ /assets/css/images/controls.png
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 15:54:13] log.ERROR: 404 - Exception @ /assets/css/images/loading.gif
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#6 {main} [] []
+[2013-11-01 15:56:39] log.ERROR: 404 - Controller method not found. @ /admin/blogs/lib/css/wysiwyg-color.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []
+[2013-11-01 15:56:54] log.ERROR: 404 - Controller method not found. @ /admin/blogs/7/lib/css/wysiwyg-color.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []
+[2013-11-01 20:50:57] log.ERROR: 404 - Controller method not found. @ /admin/blogs/lib/css/wysiwyg-color.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'Controller method not found.' in /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php:290
+Stack trace:
+#0 [internal function]: Illuminate\Routing\Controllers\Controller->missingMethod(Array)
+#1 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#2 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('missingMethod', Array)
+#3 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'missingMethod', Array)
+#4 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}(Array)
+#5 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#6 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#7 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#8 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#9 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#10 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 /Users/danielcitron/Dropbox/Harvard/Lampoon/Comp/Project_2/v2/laravel/server.php(19): require_once('/Users/danielci...')
+#12 {main} [] []

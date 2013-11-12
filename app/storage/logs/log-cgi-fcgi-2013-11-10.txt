@@ -1,0 +1,1227 @@
+[2013-11-10 07:04:34] log.ERROR: 500 - SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket 'Localhost' (2) @ /user
+exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket 'Localhost' (2)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'dacfilms@localh...', 'Rishisucks123!!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:09:57] log.ERROR: 500 - SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket 'Localhost' (2) @ /user
+exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket 'Localhost' (2)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=loca...', 'dacfilms@localh...', 'Rishisucks123!!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:13:36] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:15:56] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:17:36] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_dacfil...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:20:04] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:20:04] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:20:28] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:23:24] log.ERROR: 500 - SQLSTATE[HY000] [1129] Host 'box539.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' @ /user
+exception 'PDOException' with message 'SQLSTATE[HY000] [1129] Host 'box539.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=box5...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=box5...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:24:55] log.ERROR: 500 - SQLSTATE[HY000] [1129] Host 'box539.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' @ /user
+exception 'PDOException' with message 'SQLSTATE[HY000] [1129] Host 'box539.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=box5...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=box5...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:27:03] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:27:15] log.ERROR: 500 - SQLSTATE[HY000] [1129] Host 'box539.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' @ /user
+exception 'PDOException' with message 'SQLSTATE[HY000] [1129] Host 'box539.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=box5...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=box5...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:27:31] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:27:52] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:28:13] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'benshryock!', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:31:21] log.ERROR: 500 - SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES) @ /user
+exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'dacfilms_lampoon'@'box174.bluehost.com' (using password: YES)' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'citron', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:31:41] log.ERROR: 500 - SQLSTATE[HY000] [1129] Host 'box174.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' @ /user
+exception 'PDOException' with message 'SQLSTATE[HY000] [1129] Host 'box174.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'citron', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:32:13] log.ERROR: 500 - SQLSTATE[HY000] [1129] Host 'box174.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts' @ /user
+exception 'PDOException' with message 'SQLSTATE[HY000] [1129] Host 'box174.bluehost.com' is blocked because of many connection errors; unblock with 'mysqladmin flush-hosts'' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:47
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(47): PDO->__construct('mysql:host=69.8...', 'dacfilms_lampoo...', 'citron', Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(20): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=69.8...', Array, Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(41): Illuminate\Database\Connectors\MySqlConnector->connect(Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(128): Illuminate\Database\Connectors\ConnectionFactory->make(Array, 'mysql')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php(64): Illuminate\Database\DatabaseManager->makeConnection('mysql')
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideEloquentRepository.php(244): Illuminate\Database\DatabaseManager->connection()
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(163): Zizaco\Confide\ConfideEloquentRepository->userExists(Object(User))
+#7 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#8 [internal function]: UserController->postIndex()
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#12 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#18 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#19 {main} [] []
+[2013-11-10 07:33:44] log.ERROR: 500 - Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110] @ /user
+exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110]' in /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(226): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#7 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(228): Zizaco\Confide\ConfideUser->afterSave()
+#8 [internal function]: LaravelBook\Ardent\Ardent::LaravelBook\Ardent\{closure}(Object(User), 'eloquent.saved:...')
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1306): Illuminate\Events\Dispatcher->fire('eloquent.saved:...', Object(User))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1158): Illuminate\Database\Eloquent\Model->fireModelEvent('saved', false)
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1143): Illuminate\Database\Eloquent\Model->finishSave(Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(699): Illuminate\Database\Eloquent\Model->save(Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(573): LaravelBook\Ardent\Ardent->performSave(Array)
+#15 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(597): LaravelBook\Ardent\Ardent->internalSave(Array, Array, Array, NULL, NULL, false)
+#16 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(273): LaravelBook\Ardent\Ardent->save(Array, Array, Array, NULL, NULL)
+#17 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(168): Zizaco\Confide\ConfideUser->real_save(Array, Array, Array, NULL, NULL)
+#18 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#19 [internal function]: UserController->postIndex()
+#20 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#21 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#22 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#23 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#24 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#25 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#26 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#27 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#29 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#30 {main} [] []
+[2013-11-10 07:35:34] log.ERROR: 500 - Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110] @ /user
+exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110]' in /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(226): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#7 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(228): Zizaco\Confide\ConfideUser->afterSave()
+#8 [internal function]: LaravelBook\Ardent\Ardent::LaravelBook\Ardent\{closure}(Object(User), 'eloquent.saved:...')
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1306): Illuminate\Events\Dispatcher->fire('eloquent.saved:...', Object(User))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1158): Illuminate\Database\Eloquent\Model->fireModelEvent('saved', false)
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1143): Illuminate\Database\Eloquent\Model->finishSave(Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(699): Illuminate\Database\Eloquent\Model->save(Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(573): LaravelBook\Ardent\Ardent->performSave(Array)
+#15 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(597): LaravelBook\Ardent\Ardent->internalSave(Array, Array, Array, NULL, NULL, false)
+#16 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(273): LaravelBook\Ardent\Ardent->save(Array, Array, Array, NULL, NULL)
+#17 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(168): Zizaco\Confide\ConfideUser->real_save(Array, Array, Array, NULL, NULL)
+#18 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#19 [internal function]: UserController->postIndex()
+#20 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#21 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#22 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#23 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#24 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#25 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#26 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#27 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#29 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#30 {main} [] []
+[2013-11-10 07:36:06] log.ERROR: 500 - Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110] @ /user
+exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110]' in /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(226): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#7 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(228): Zizaco\Confide\ConfideUser->afterSave()
+#8 [internal function]: LaravelBook\Ardent\Ardent::LaravelBook\Ardent\{closure}(Object(User), 'eloquent.saved:...')
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1306): Illuminate\Events\Dispatcher->fire('eloquent.saved:...', Object(User))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1158): Illuminate\Database\Eloquent\Model->fireModelEvent('saved', false)
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1143): Illuminate\Database\Eloquent\Model->finishSave(Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(699): Illuminate\Database\Eloquent\Model->save(Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(573): LaravelBook\Ardent\Ardent->performSave(Array)
+#15 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(597): LaravelBook\Ardent\Ardent->internalSave(Array, Array, Array, NULL, NULL, false)
+#16 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(273): LaravelBook\Ardent\Ardent->save(Array, Array, Array, NULL, NULL)
+#17 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(168): Zizaco\Confide\ConfideUser->real_save(Array, Array, Array, NULL, NULL)
+#18 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#19 [internal function]: UserController->postIndex()
+#20 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#21 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#22 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#23 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#24 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#25 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#26 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#27 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#29 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#30 {main} [] []
+[2013-11-10 07:36:38] log.ERROR: 500 - Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110] @ /user
+exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110]' in /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(226): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#7 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(228): Zizaco\Confide\ConfideUser->afterSave()
+#8 [internal function]: LaravelBook\Ardent\Ardent::LaravelBook\Ardent\{closure}(Object(User), 'eloquent.saved:...')
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1306): Illuminate\Events\Dispatcher->fire('eloquent.saved:...', Object(User))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1158): Illuminate\Database\Eloquent\Model->fireModelEvent('saved', false)
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1143): Illuminate\Database\Eloquent\Model->finishSave(Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(699): Illuminate\Database\Eloquent\Model->save(Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(573): LaravelBook\Ardent\Ardent->performSave(Array)
+#15 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(597): LaravelBook\Ardent\Ardent->internalSave(Array, Array, Array, NULL, NULL, false)
+#16 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(273): LaravelBook\Ardent\Ardent->save(Array, Array, Array, NULL, NULL)
+#17 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(168): Zizaco\Confide\ConfideUser->real_save(Array, Array, Array, NULL, NULL)
+#18 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#19 [internal function]: UserController->postIndex()
+#20 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#21 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#22 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#23 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#24 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#25 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#26 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#27 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#29 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#30 {main} [] []
+[2013-11-10 07:39:27] log.ERROR: 500 - Connection could not be established with host smtp.postmarkapp.com [Connection refused #111] @ /user
+exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.postmarkapp.com [Connection refused #111]' in /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(226): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#7 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(228): Zizaco\Confide\ConfideUser->afterSave()
+#8 [internal function]: LaravelBook\Ardent\Ardent::LaravelBook\Ardent\{closure}(Object(User), 'eloquent.saved:...')
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1306): Illuminate\Events\Dispatcher->fire('eloquent.saved:...', Object(User))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1158): Illuminate\Database\Eloquent\Model->fireModelEvent('saved', false)
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1143): Illuminate\Database\Eloquent\Model->finishSave(Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(699): Illuminate\Database\Eloquent\Model->save(Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(573): LaravelBook\Ardent\Ardent->performSave(Array)
+#15 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(597): LaravelBook\Ardent\Ardent->internalSave(Array, Array, Array, NULL, NULL, false)
+#16 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(273): LaravelBook\Ardent\Ardent->save(Array, Array, Array, NULL, NULL)
+#17 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(168): Zizaco\Confide\ConfideUser->real_save(Array, Array, Array, NULL, NULL)
+#18 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#19 [internal function]: UserController->postIndex()
+#20 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#21 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#22 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#23 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#24 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#25 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#26 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#27 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#29 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#30 {main} [] []
+[2013-11-10 07:48:41] log.ERROR: 500 - Connection could not be established with host smtp.postmarkapp.com [Connection refused #111] @ /user
+exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.postmarkapp.com [Connection refused #111]' in /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(226): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#7 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(228): Zizaco\Confide\ConfideUser->afterSave()
+#8 [internal function]: LaravelBook\Ardent\Ardent::LaravelBook\Ardent\{closure}(Object(User), 'eloquent.saved:...')
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1306): Illuminate\Events\Dispatcher->fire('eloquent.saved:...', Object(User))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1158): Illuminate\Database\Eloquent\Model->fireModelEvent('saved', false)
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1143): Illuminate\Database\Eloquent\Model->finishSave(Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(699): Illuminate\Database\Eloquent\Model->save(Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(573): LaravelBook\Ardent\Ardent->performSave(Array)
+#15 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(597): LaravelBook\Ardent\Ardent->internalSave(Array, Array, Array, NULL, NULL, false)
+#16 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(273): LaravelBook\Ardent\Ardent->save(Array, Array, Array, NULL, NULL)
+#17 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(168): Zizaco\Confide\ConfideUser->real_save(Array, Array, Array, NULL, NULL)
+#18 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#19 [internal function]: UserController->postIndex()
+#20 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#21 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#22 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#23 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#24 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#25 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#26 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#27 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#29 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#30 {main} [] []
+[2013-11-10 08:09:28] log.ERROR: 500 - Undefined variable: userBoard @ /
+exception 'ErrorException' with message 'Undefined variable: userBoard' in /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6:90
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6(90): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home4/dacfilms...', 90, Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home4/dacfilms...')
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/dacfilms...', Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home4/dacfilms...', Array)
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home4/dacfilms/public_html/daylight/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getUserHome', Object(Robbo\Presenter\View\View))
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getUserHome', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-11-10 08:11:41] log.ERROR: 500 - Undefined variable: userBoard @ /
+exception 'ErrorException' with message 'Undefined variable: userBoard' in /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6:90
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6(90): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home4/dacfilms...', 90, Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home4/dacfilms...')
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/dacfilms...', Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home4/dacfilms...', Array)
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home4/dacfilms/public_html/daylight/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getUserHome', Object(Robbo\Presenter\View\View))
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getUserHome', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-11-10 08:20:15] log.ERROR: 500 - Undefined index: argv @ /
+exception 'ErrorException' with message 'Undefined index: argv' in /home4/dacfilms/public_html/daylight/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php:57
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/symfony/console/Symfony/Component/Console/Input/ArgvInput.php(57): Illuminate\Exception\Handler->handleError(8, 'Undefined index...', '/home4/dacfilms...', 57, Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/symfony/console/Symfony/Component/Console/Application.php(111): Symfony\Component\Console\Input\ArgvInput->__construct()
+#2 /home4/dacfilms/public_html/daylight/artisan(58): Symfony\Component\Console\Application->run()
+#3 {main} [] []
+[2013-11-10 08:37:37] log.ERROR: 500 - Undefined variable: userBoard @ /
+exception 'ErrorException' with message 'Undefined variable: userBoard' in /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6:90
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6(90): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home4/dacfilms...', 90, Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home4/dacfilms...')
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/dacfilms...', Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home4/dacfilms...', Array)
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home4/dacfilms/public_html/daylight/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getUserHome', Object(Robbo\Presenter\View\View))
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getUserHome', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-11-10 08:39:15] log.ERROR: 500 - Undefined variable: userBoard @ /
+exception 'ErrorException' with message 'Undefined variable: userBoard' in /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6:90
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6(90): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home4/dacfilms...', 90, Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home4/dacfilms...')
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/dacfilms...', Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home4/dacfilms...', Array)
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home4/dacfilms/public_html/daylight/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getUserHome', Object(Robbo\Presenter\View\View))
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getUserHome', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-11-10 08:39:40] log.ERROR: 404 - Exception @ /block/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:722
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Foundation\Application->abort(404)
+#1 /home4/dacfilms/public_html/daylight/app/controllers/user/BoardController.php(404): Illuminate\Support\Facades\Facade::__callStatic('abort', Array)
+#2 /home4/dacfilms/public_html/daylight/app/controllers/user/BoardController.php(404): Illuminate\Support\Facades\App::abort(404)
+#3 [internal function]: BoardController->getBlock('create')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#5 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getBlock', Array)
+#6 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getBlock', Array)
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('create')
+#8 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2013-11-10 08:39:46] log.ERROR: 404 - Exception @ /create/block
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 08:39:55] log.ERROR: 404 - Exception @ /block/create
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:722
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(206): Illuminate\Foundation\Application->abort(404)
+#1 /home4/dacfilms/public_html/daylight/app/controllers/user/BoardController.php(404): Illuminate\Support\Facades\Facade::__callStatic('abort', Array)
+#2 /home4/dacfilms/public_html/daylight/app/controllers/user/BoardController.php(404): Illuminate\Support\Facades\App::abort(404)
+#3 [internal function]: BoardController->getBlock('create')
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#5 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('getBlock', Array)
+#6 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getBlock', Array)
+#7 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}('create')
+#8 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#13 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#14 {main} [] []
+[2013-11-10 08:53:38] log.ERROR: 500 - Undefined variable: userBoard @ /
+exception 'ErrorException' with message 'Undefined variable: userBoard' in /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6:90
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6(90): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home4/dacfilms...', 90, Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home4/dacfilms...')
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/dacfilms...', Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home4/dacfilms...', Array)
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home4/dacfilms/public_html/daylight/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getUserHome', Object(Robbo\Presenter\View\View))
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getUserHome', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-11-10 08:54:09] log.ERROR: 500 - Undefined variable: userBoard @ /
+exception 'ErrorException' with message 'Undefined variable: userBoard' in /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6:90
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6(90): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home4/dacfilms...', 90, Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home4/dacfilms...')
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/dacfilms...', Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home4/dacfilms...', Array)
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home4/dacfilms/public_html/daylight/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getUserHome', Object(Robbo\Presenter\View\View))
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getUserHome', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-11-10 08:54:15] log.ERROR: 404 - Exception @ /assets/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 08:54:24] log.ERROR: 404 - Exception @ /assets/compiled/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 08:56:51] log.ERROR: 404 - Exception @ /assets/css/public.css
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 08:56:55] log.ERROR: 404 - Exception @ /assets/css/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 08:59:00] log.ERROR: 404 - Exception @ /assets/css/
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 08:59:06] log.ERROR: 500 - Undefined variable: userBoard @ /
+exception 'ErrorException' with message 'Undefined variable: userBoard' in /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6:90
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6(90): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home4/dacfilms...', 90, Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home4/dacfilms...')
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/dacfilms...', Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home4/dacfilms...', Array)
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home4/dacfilms/public_html/daylight/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getUserHome', Object(Robbo\Presenter\View\View))
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getUserHome', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-11-10 08:59:18] log.ERROR: 405 - Exception @ /board/create
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 09:11:06] log.ERROR: 500 - Undefined variable: userBoard @ /
+exception 'ErrorException' with message 'Undefined variable: userBoard' in /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6:90
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/app/storage/views/383e41ff0d636698056885b868963aa6(90): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home4/dacfilms...', 90, Array)
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(38): include('/home4/dacfilms...')
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(45): Illuminate\View\Engines\PhpEngine->evaluatePath('/home4/dacfilms...', Array)
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(100): Illuminate\View\Engines\CompilerEngine->get('/home4/dacfilms...', Array)
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/View/View.php(81): Illuminate\View\View->getContents()
+#5 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Http/Response.php(70): Illuminate\View\View->render()
+#6 /home4/dacfilms/public_html/daylight/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Response.php(141): Illuminate\Http\Response->setContent(Object(Robbo\Presenter\View\View))
+#7 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1414): Symfony\Component\HttpFoundation\Response->__construct(Object(Robbo\Presenter\View\View))
+#8 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(156): Illuminate\Routing\Router->prepare(Object(Robbo\Presenter\View\View), Object(Illuminate\Http\Request))
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(126): Illuminate\Routing\Controllers\Controller->processResponse(Object(Illuminate\Routing\Router), 'getUserHome', Object(Robbo\Presenter\View\View))
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'getUserHome', Array)
+#11 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#14 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#15 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#16 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#17 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#18 {main} [] []
+[2013-11-10 16:12:30] log.ERROR: 500 - Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110] @ /user
+exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110]' in /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(226): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#7 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(228): Zizaco\Confide\ConfideUser->afterSave()
+#8 [internal function]: LaravelBook\Ardent\Ardent::LaravelBook\Ardent\{closure}(Object(User), 'eloquent.saved:...')
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1306): Illuminate\Events\Dispatcher->fire('eloquent.saved:...', Object(User))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1158): Illuminate\Database\Eloquent\Model->fireModelEvent('saved', false)
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1143): Illuminate\Database\Eloquent\Model->finishSave(Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(699): Illuminate\Database\Eloquent\Model->save(Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(573): LaravelBook\Ardent\Ardent->performSave(Array)
+#15 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(597): LaravelBook\Ardent\Ardent->internalSave(Array, Array, Array, NULL, NULL, false)
+#16 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(273): LaravelBook\Ardent\Ardent->save(Array, Array, Array, NULL, NULL)
+#17 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(168): Zizaco\Confide\ConfideUser->real_save(Array, Array, Array, NULL, NULL)
+#18 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#19 [internal function]: UserController->postIndex()
+#20 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#21 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#22 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#23 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#24 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#25 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#26 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#27 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#29 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#30 {main} [] []
+[2013-11-10 16:34:37] log.ERROR: 500 - Connection could not be established with host smtp.postmarkapp.com [Connection refused #111] @ /user
+exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.postmarkapp.com [Connection refused #111]' in /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(226): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#7 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(228): Zizaco\Confide\ConfideUser->afterSave()
+#8 [internal function]: LaravelBook\Ardent\Ardent::LaravelBook\Ardent\{closure}(Object(User), 'eloquent.saved:...')
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1306): Illuminate\Events\Dispatcher->fire('eloquent.saved:...', Object(User))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1158): Illuminate\Database\Eloquent\Model->fireModelEvent('saved', false)
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1143): Illuminate\Database\Eloquent\Model->finishSave(Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(699): Illuminate\Database\Eloquent\Model->save(Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(573): LaravelBook\Ardent\Ardent->performSave(Array)
+#15 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(597): LaravelBook\Ardent\Ardent->internalSave(Array, Array, Array, NULL, NULL, false)
+#16 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(273): LaravelBook\Ardent\Ardent->save(Array, Array, Array, NULL, NULL)
+#17 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(168): Zizaco\Confide\ConfideUser->real_save(Array, Array, Array, NULL, NULL)
+#18 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#19 [internal function]: UserController->postIndex()
+#20 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#21 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#22 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#23 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#24 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#25 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#26 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#27 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#29 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#30 {main} [] []
+[2013-11-10 16:37:24] log.ERROR: 500 - Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110] @ /user
+exception 'Swift_TransportException' with message 'Connection could not be established with host smtp.postmarkapp.com [Connection timed out #110]' in /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php:259
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php(64): Swift_Transport_StreamBuffer->_establishSocketConnection()
+#1 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php(115): Swift_Transport_StreamBuffer->initialize(Array)
+#2 /home4/dacfilms/public_html/daylight/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php(80): Swift_Transport_AbstractSmtpTransport->start()
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(291): Swift_Mailer->send(Object(Swift_Message))
+#4 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(120): Illuminate\Mail\Mailer->sendSwiftMessage(Object(Swift_Message))
+#5 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(311): Illuminate\Mail\Mailer->send('confide::emails...', Array, Object(Closure))
+#6 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(226): Zizaco\Confide\ConfideUser->sendEmail('confide::confid...', 'confide::emails...', Array)
+#7 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(228): Zizaco\Confide\ConfideUser->afterSave()
+#8 [internal function]: LaravelBook\Ardent\Ardent::LaravelBook\Ardent\{closure}(Object(User), 'eloquent.saved:...')
+#9 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(179): call_user_func_array(Object(Closure), Array)
+#10 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1306): Illuminate\Events\Dispatcher->fire('eloquent.saved:...', Object(User))
+#11 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1158): Illuminate\Database\Eloquent\Model->fireModelEvent('saved', false)
+#12 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1143): Illuminate\Database\Eloquent\Model->finishSave(Array)
+#13 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(699): Illuminate\Database\Eloquent\Model->save(Array)
+#14 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(573): LaravelBook\Ardent\Ardent->performSave(Array)
+#15 /home4/dacfilms/public_html/daylight/vendor/laravelbook/ardent/src/LaravelBook/Ardent/Ardent.php(597): LaravelBook\Ardent\Ardent->internalSave(Array, Array, Array, NULL, NULL, false)
+#16 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(273): LaravelBook\Ardent\Ardent->save(Array, Array, Array, NULL, NULL)
+#17 /home4/dacfilms/public_html/daylight/vendor/zizaco/confide/src/Zizaco/Confide/ConfideUser.php(168): Zizaco\Confide\ConfideUser->real_save(Array, Array, Array, NULL, NULL)
+#18 /home4/dacfilms/public_html/daylight/app/controllers/user/UserController.php(123): Zizaco\Confide\ConfideUser->save()
+#19 [internal function]: UserController->postIndex()
+#20 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(138): call_user_func_array(Array, Array)
+#21 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Controllers/Controller.php(115): Illuminate\Routing\Controllers\Controller->callMethod('postIndex', Array)
+#22 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(985): Illuminate\Routing\Controllers\Controller->callAction(Object(Illuminate\Foundation\Application), Object(Illuminate\Routing\Router), 'postIndex', Array)
+#23 [internal function]: Illuminate\Routing\Router->Illuminate\Routing\{closure}()
+#24 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(80): call_user_func_array(Object(Closure), Array)
+#25 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Route.php(47): Illuminate\Routing\Route->callCallable()
+#26 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1016): Illuminate\Routing\Route->run(Object(Illuminate\Http\Request))
+#27 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#28 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#29 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#30 {main} [] []
+[2013-11-10 17:17:45] log.ERROR: 404 - Exception @ /boards
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 17:17:46] log.ERROR: 404 - Exception @ /boards
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 17:58:02] log.ERROR: 404 - Exception @ /public/boards/18
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 17:59:04] log.ERROR: 404 - Exception @ /public/boards/18
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:00:52] log.ERROR: 404 - Exception @ /public/boards/17
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:01:25] log.ERROR: 404 - Exception @ /public/boards/17
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:10:37] log.ERROR: 404 - Exception @ /jquery.jeditable.mini.js
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:10:40] log.ERROR: 405 - Exception @ /boards/order
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:10:41] log.ERROR: 405 - Exception @ /boards/order
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:10:44] log.ERROR: 405 - Exception @ /boards/order
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:10:45] log.ERROR: 405 - Exception @ /boards/order
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:12:19] log.ERROR: 405 - Exception @ /boards/order
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:12:29] log.ERROR: 405 - Exception @ /boards/order
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:12:37] log.ERROR: 405 - Exception @ /boards/order
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:12:39] log.ERROR: 404 - Exception @ /public/boards/18
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:14:33] log.ERROR: 405 - Exception @ /boards/order
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 18:15:48] log.ERROR: 405 - Exception @ /boards/order
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/public/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 19:07:29] log.ERROR: 404 - Exception @ /public/uploads/citrus/covers/pattern-00.jpg
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 19:07:31] log.ERROR: 404 - Exception @ /public/uploads/citrus/covers/pattern-00.jpg
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 19:09:17] log.ERROR: 404 - Exception @ /public/uploads/citrus/covers/pattern-00.jpg
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 19:17:36] log.ERROR: 404 - Exception @ /public/boards/order
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 19:17:37] log.ERROR: 404 - Exception @ /public/boards/order
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 19:17:38] log.ERROR: 404 - Exception @ /public/boards/order
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 19:18:23] log.ERROR: 405 - Exception @ /boards/order
+exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1439
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\MethodNotAllowedException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
+[2013-11-10 19:29:49] log.ERROR: 404 - Exception @ /public/boards/17
+exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php:1429
+Stack trace:
+#0 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1050): Illuminate\Routing\Router->handleRoutingException(Object(Symfony\Component\Routing\Exception\ResourceNotFoundException))
+#1 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Routing/Router.php(1014): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(574): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#3 /home4/dacfilms/public_html/daylight/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(550): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#4 /home4/dacfilms/public_html/daylight/index.php(49): Illuminate\Foundation\Application->run()
+#5 {main} [] []
