@@ -132,6 +132,15 @@ $(document).ready(function() {
 			}
 		});
 
+		$('.expand-block-width').click(function() {
+			if ($('.block-comment-container').hasClass('expanded')) {
+			    $('.block-comment-container').removeClass('expanded');
+			}
+			else {
+				$('.block-comment-container').addClass('expanded');
+			}
+		});
+
 
 
 		

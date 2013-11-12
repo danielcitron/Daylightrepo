@@ -9,6 +9,8 @@
 
 {{-- Content --}}
 @section('content')
+<a class="back-to-board" href="{{{'/boards/'.$block->boards->id}}}">Back to {{$block->boards->title}}</a>
+<div class="expand-block-width"><span class="glyphicon glyphicon-zoom-in"></span></div>
 <div class="block-comment-container">
 	@if($block->user_id == Auth::user()->id)
 		<form class="delete-form" method="post" action="{{{ URL::to($block->title.'/delete') }}}" autocomplete="off" enctype="multipart/form-data">

@@ -33,6 +33,7 @@ Route::get('boards/{boardsSlug}', 'BoardController@getBlocks');
 #Return Block
 Route::get('block/{id}', 'BoardController@getBlock');
 
+
 /** ------------------------------------------
  *must be logged in
  * ------------------------------------------
@@ -77,8 +78,12 @@ Route::group(array('before' => 'auth'), function()
 
 Route::post('/user/login', 'UserController@postLogin');
 
+
+Route::post('user/{user}/edit', 'UserController@postEdit');
+
 Route::controller('user', 'UserController');
 
 Route::get('/', array('before' => 'auth','uses' => 'UserController@getUserHome'));
+
 
 

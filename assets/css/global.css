@@ -346,6 +346,11 @@ body {
   color: #9b9b9b; }
 
 .block-comment-container {
+  -webkit-transition: width 0.25s ease;
+  -moz-transition: width 0.25s ease;
+  -ms-transition: width 0.25s ease;
+  -o-transition: width 0.25s ease;
+  transition: width 0.25s ease;
   width: 425px;
   background: white;
   border: 1px solid #dbdbdb;
@@ -359,6 +364,8 @@ body {
   -webkit-border-radius: 10px 10px 0px 0px;
   position: relative;
   overflow: hidden; }
+  .block-comment-container.expanded {
+    width: 100%; }
   .block-comment-container:hover > .delete-form {
     top: 0px; }
   .block-comment-container:hover > .edit-block-title {
@@ -700,6 +707,18 @@ hr {
     height: 150px;
     overflow: hidden;
     position: relative; }
+    .view-board .header-container .cover .unsubscribe-form {
+      -webkit-transition: all 0.25s ease;
+      -moz-transition: all 0.25s ease;
+      -ms-transition: all 0.25s ease;
+      -o-transition: all 0.25s ease;
+      transition: all 0.25s ease;
+      top: 65px;
+      right: 189px;
+      opacity: 1; }
+    .view-board .header-container .cover:hover > .unsubscribe-form {
+      top: 65px;
+      opacity: 1; }
     .view-board .header-container .cover:hover > .edit-cover-form {
       bottom: 10px;
       opacity: 1; }
@@ -734,7 +753,7 @@ hr {
       position: absolute;
       color: white;
       left: 37px;
-      bottom: -6px;
+      bottom: -2px;
       font-size: 27pt; }
       .view-board .header-container .cover .author-container a {
         text-decoration: none;
@@ -757,7 +776,8 @@ hr {
       color: white;
       text-overflow: ellipsis;
       width: 67%;
-      overflow: hidden; }
+      overflow: hidden;
+      bottom: 15px; }
     .view-board .header-container .cover .board-cover {
       width: 100%;
       height: auto; }
@@ -1047,7 +1067,7 @@ hr {
 
 .subscribed {
   position: absolute;
-  right: 26px;
+  right: 54px;
   top: 65px !important;
   font-size: 13pt;
   padding: 3px;
@@ -1055,3 +1075,54 @@ hr {
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px; }
+
+.reset-password-title {
+  font-family: BariolThin;
+  text-align: center; }
+
+.reset-password-form {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; }
+
+.expand-block-width {
+  width: 70px;
+  height: 50px;
+  background: white;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  position: fixed;
+  right: 55px;
+  top: 30px;
+  text-align: center;
+  padding: 8px;
+  padding-top: 17px;
+  z-index: 10000000;
+  -moz-box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.2); }
+  .expand-block-width:hover {
+    background: #fcfcfc;
+    cursor: pointer; }
+
+.back-to-board {
+  -webkit-transition: margin 0.25s ease;
+  -moz-transition: margin 0.25s ease;
+  -ms-transition: margin 0.25s ease;
+  -o-transition: margin 0.25s ease;
+  transition: margin 0.25s ease;
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  font-size: 16pt;
+  text-decoration: none;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  position: fixed; }
+  .back-to-board:hover {
+    background: #fcfcfc;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 15px; }

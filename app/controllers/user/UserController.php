@@ -127,7 +127,7 @@ class UserController extends BaseController {
                     $user->password = $password;
                     $user->password_confirmation = $passwordConfirmation;
                 } else {
-                    return Redirect::to('users')->with('error', Lang::get('admin/users/messages.password_does_not_match'));
+                    return Redirect::to('user')->with('error', Lang::get('admin/users/messages.password_does_not_match'));
                 }
             } else {
                 unset($user->password);
@@ -313,4 +313,5 @@ class UserController extends BaseController {
         }
         return $redirect;
     }
+
 }
