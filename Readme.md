@@ -17,40 +17,75 @@ Daylight is designed to be an online space for organizing what inspires you. The
 
 
 Implemented Pages-\>
+
 Login/Register
+
 Sidebar
+
 -user's boards
+
 -user's subscriptions
+
 -discover
+
 -most recent
+
 -sort
+
 **(accessed by hovering over discover)**
+
 title- links to home dashboard
+
 username - links to user settings
+
 Home Dashboard
+
 tabs-
+
 Boards
+
 Subscriptions
+
 Blocks
+
 User Specific Profiles
+
 Board Pages
+
 -can add blocks with animated slide out menu
+
 -if user created board
+
 -can rearrange blocks with drag and drop
+
 -can delete blocks
+
 -can retitle
+
 -can change description
+
 -can change cover photo
+
 Create Board
+
 Block Pages
+
 -view blocks
+
 -can comment with both photos and text
+
 F. 
+
 Login:dcitron
+
 Password: lampoon
+
 Login: citrus
+
 Password: lampoon
+
 G. Known bugs: Due to my server providers unwillingness to open the correct ports, password reset emails cannot be sent. No workaround necessary for normal use, unless you forget your password, that is.
+
 H. N/A
 
 
