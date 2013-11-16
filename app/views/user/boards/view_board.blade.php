@@ -36,7 +36,7 @@
 					<input type="hidden" name="board_title" value="{{{$board->title}}}" />
 
 					<input type="hidden" name="board_id" value="{{{ $board->id }}}" />
-					<input type="file" placeholder="Choose a photo to upload" name="cover_photo" id="cover_photo" />
+					<input type="file" placeholder="Choose a photo to upload" name="cover_photo" data-validation="required" id="cover_photo" />
 					<button type="submit" class="btn btn-success">Update Cover</button>
 				</form>
 			@endif
@@ -144,28 +144,36 @@
 		</div>
 		<div class="form-container">
 			<form  method="post" action="{{{ URL::to('board/' . $board->title . '/block/create') }}}" autocomplete="off" enctype="multipart/form-data">
+				<div class="form-tabs">
+					<div class="form-tab tab-text selected">
+						T
+					</div>
+					<div class="form-tab tab-photos">
+						<span class="glyphicon glyphicon-picture"></span>
+					</div>
+				</div>
 				<input type="hidden" name="_token" value="{{{ Session::getToken() }}}" />
 
 				<!-- CSRF Token -->
 				<input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
 				<!-- ./ csrf token -->
-	            <label class="block-form-title" for="title">Block Title</label>
-	        	</br>
-				<input class="block-form-title" type="text" name="title" id="title" />
-				</br></br>
+	            
+	            <div class="form-field-container form-title-container">
+					<input class="block-form-title" placeholder="Block Title" type="text" name="title" id="title" data-validation="required" />
+				</div>
+				<div class="form-field-container form-photo-container hidden">
+		            <label for="photo">Photo</label>
+		        	</br>
+	           		<input class="photo-input" type="file" placeholder="Choose a photo to upload" name="block_photo" id="block_photo" data-validation="" />
+	        	</div>
+	        	<div class="form-field-container add-description hidden">Add Description</div>
+				<div class="form-field-container form-content-container">
+					<textarea placeholder="Block Content" class="block-form-content" data-validation="required" name="content" value="content"></textarea>
+				</div>
 
-	            <label class="block-form-content" for="content">Content</label>
-	       		</br></br>
-				<textarea class="block-form-content" name="content" value="content" rows="10"></textarea>
-				</br></br>
-
-	            <label for="photo">Photo</label>
-	        	</br>
-	            <input class="photo-input" type="file" placeholder="Choose a photo to upload" name="block_photo" id="block_photo" />
-	        	</br></br>
-				<div class="form-group">
-						<element class="btn-cancel close_popup">Cancel</element>
-						<button type="submit" class="btn btn-success">Create</button>
+	            
+				<div>
+						<button type="submit" class="create-button">Create</button>
 				</div>
 			</form>
 		</div>

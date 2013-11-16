@@ -262,6 +262,8 @@ body {
 					width: 100%;
 					list-style-type: none;
 					padding: 0;
+					overflow-y: scroll;
+					max-height: 228px;
 					
 					li:nth-child(even) {
 						background: rgba(white, .05);
@@ -765,8 +767,10 @@ hr {
 
 	input {
 		text-align: center;
-		width: 80px;
+		width: 184px;
 		margin: 15px auto;
+		overflow: hidden;
+		text-overflow: ellipsis;
 	}
 
 	.button {
@@ -779,8 +783,8 @@ hr {
 	padding-top: 25px;
 
 	.block-comment {
+		padding: 15px 0px;
 		.comment-text-container {
-			height: 40px;
 			width: 100%;
 			position: relative;
 
@@ -806,13 +810,14 @@ hr {
 			.comment-text {
 				display: inline-block;
 				width: 70%;
-				position: absolute;
+				position: relative;
 				right: 0;
 				text-align: left;
 				color: $darkgray;
 				font-size: 18pt;
 				overflow: hidden;
 				text-overflow: ellipsis;
+				margin-left: 120px;
 			}
 
 		}
@@ -939,6 +944,15 @@ hr {
 			padding: 6% 25px;
 			z-index: 2;
 
+			.board-link-container {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				padding: 0;
+				left: 0;
+				top: 0;
+			}
+
 			h1 {
 				font-family: BariolThin;
 				color: white;
@@ -958,6 +972,11 @@ hr {
 				&:hover {
 					color: lighten($darkblue, 15%);
 				}
+			}
+
+			.in-front {
+				z-index: 100000;
+				position: relative;
 			}
 
 			.board-description {
@@ -992,9 +1011,9 @@ hr {
 .view-board {
 	
 	.create-new-container {
-		@include transition(bottom .25s ease);
+		@include transition(all .25s ease);
 		position: fixed;
-		bottom: -600px;
+		bottom: -445px;
 		padding-right: 300px;
 		width: 100%;
 		text-align: center;
@@ -1044,31 +1063,134 @@ hr {
 		.form-container {
 			width: 100%;
 			height: 100%;
-			background: white;
+			background: lighten($lightgray, 35%);
 			@include box-shadow(0px -1px 10px rgba(black, .2));
+			border-top: 1px solid lighten($lightgray, 10%);
 			
+			.form-tabs {
+				border-bottom: 1px solid #E7E7E7;
+				margin-bottom: 5px;
+				height: 50px;
+
+				.form-tab {
+					width: 50%;
+					float: left;
+					text-align: center;
+					padding: 10px 0px;
+					font-size: 14pt;
+					border-collapse: collapse;
+
+					&.selected {
+						background: $darkblue;
+						color: white;
+					}
+
+					&:hover {
+						background: $darkblue;
+						color: white;
+						cursor: pointer;
+					}
+				}
+
+				.tab-text {
+					padding-bottom: 12px;
+					border-right: 1px solid #E7E7E7;
+				}
+			}
+
 			form {
+				@include transition(all .25s ease);
 				width: 400px;
 				margin-left: auto;
 				margin-right: auto;
-				padding: 20px;
+				padding: 0px;
+				background: white;
+				border: 1px solid #E7E7E7;
+				margin-top: 20px;
+				margin-bottom: 20px;
 
 				label {
-					font-size: 25pt;
+					font-size: 20pt;
+					text-align: left;
+					width: 82%;
+					font-weight: normal;
 					color: $lightgray;
+					margin-bottom: 20px;
 				}
 
 				input {
-					border: 1px solid lighten($lightgray, 10%);
+					@include transition(background .25s ease);
+					border: 0px solid #E7E7E7;
 					box-shadow: 0;
-					@include border-radius(5px);
+					@include border-radius(0px);
+					font-size: 20pt;
+
+					&:hover {
+						background: rgba($blue, .2);
+						cursor: text;
+					}
+
+					&:focus {
+						background: white !important;
+					}
 				}
 
 				textarea {
-					border: 1px solid lighten($lightgray, 10%);
-					@include border-radius(5px);
+					@include transition(background .25s ease);
+					border: 0px solid #E7E7E7;
 					box-shadow: 0;
+					@include border-radius(0px);
+					font-size: 20pt;
+					height: 150px;
 
+					&:hover {
+						background: rgba($blue, .2);
+						cursor: text;
+					}
+
+					&:focus {
+						background: white !important;
+					}
+
+				}
+
+				.form-field-container {
+					@include transition(all .25s ease);
+					width: 100%;
+					border-bottom: 1px solid #E7E7E7;
+					height: 100px;
+					padding: 30px;
+					overflow: hidden;
+
+					&.hidden {
+						padding: 0px;
+						height: 0px;
+					}
+				}
+
+				.form-content-container {
+					height: 200px;
+				}
+
+				.add-description {
+					font-size: 20pt;
+					text-align: left;
+					font-weight: normal;
+					color: $lightgray;
+					margin-bottom: 20px;
+					padding-left: 57px;
+					border-bottom: 0px;
+
+					&:hover {
+						color: $darkblue;
+						cursor: pointer;
+					}
+
+				}
+
+				.form-photo-container {
+					@include transition(all .25s ease);
+					height: 150px;
 				}
 
 				.block-form-title {
@@ -1079,11 +1201,32 @@ hr {
 					width: 85%;
 				}
 
+				.create-button {
+					@include transition(background .25s ease);
+					width: 100%;
+					background: $darkblue;
+					color: white;
+					text-align: center;
+					border: 0;
+					font-size: 20pt;
+
+					&:hover {
+						background: darken($darkblue, 10%);
+					}
+				}
+
 				.photo-input {
 					text-align: center;
-					width: 200px;
+					width: 82%;
 					margin: 0 auto;
 					border: 0;
+					font-size: 12pt;
+					overflow: hidden;
+					text-overflow: ellipsis;
+
+					&:hover {
+						background: white;
+					}
 				}
 			}
 		}
@@ -1228,6 +1371,7 @@ hr {
 			background: white;
 			overflow: hidden;
 			display: inline-block;
+			vertical-align: top;
 
 			&:hover > .block-delete-form-board {
 				top: 0px;

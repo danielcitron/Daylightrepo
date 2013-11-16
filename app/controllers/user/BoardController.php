@@ -168,8 +168,7 @@ class BoardController extends AdminController {
         }
         
         $rules = array(
-            'title'   => 'required|min:3',
-            'content' => 'required|min:3',
+            'title'   => 'required'
         );
 
 

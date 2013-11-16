@@ -2,7 +2,6 @@
 
 
 @section('content')
-
 <div class="profile-header">
 	<h1>{{ String::tidy(Str::limit($userProfile->username, 200)) }} </h1>
 	<div class="header-count-container boards">
@@ -30,10 +29,10 @@
 					<p class="board-description"><a href="{{{ '/boards/'.$userBoard->id }}}">
 						{{ String::tidy(Str::limit($userBoard->description, 200)) }}
 					</a></p>
-					<a href="{{{ '/user/'.$userProfile->username.'/profile'}}}">
+					<a class="in-front" href="{{{ '/user/'.$userProfile->username.'/profile'}}}">
 					<span class="glyphicon glyphicon-user"></span> <span class="muted">{{{ $userProfile->username }}}</span>
 					</a>
-					<a href="{{{ '/boards/'.$userBoard->id }}}"><span class="glyphicon glyphicon-eye-open"></span> <span class="muted">{{$userBoard->relationships()->count()}} {{ \Illuminate\Support\Pluralizer::plural('Subscriber', $userBoard->relationships()->count()) }}</span></a>
+					<a class="in-front" href="{{{ '/boards/'.$userBoard->id }}}"><span class="glyphicon glyphicon-eye-open"></span> <span class="muted">{{$userBoard->relationships()->count()}} {{ \Illuminate\Support\Pluralizer::plural('Subscriber', $userBoard->relationships()->count()) }}</span></a>
 					@if ($userBoard->user_id !== Auth::user()->id) 
 						@if ($userBoard->relationships()->where('user_id', '=', Auth::user()->id)->first())
 							<form  method="post" action="{{{ URL::to('unsubscribe') }}}" autocomplete="off" enctype="multipart/form-data">
@@ -78,6 +77,7 @@
 							<button type="submit" class="btn btn-danger">Delete</button>
 						</form>
 					@endif
+					<a href="{{{ '/boards/'.$userBoard->id }}}"><div class="board-link-container"></div></a>
 				</div>
 
 				<img class="board-cover" src="{{{ $userBoard->cover_location }}}" alt="{{{ $userBoard->file_name }}}"></img>
@@ -152,25 +152,25 @@
 					<p class="board-description"><a href="{{{ '/boards/'.$userSubscription->boards->id }}}">
 						{{ String::tidy(Str::limit($userSubscription->boards->description, 200)) }}
 					</a></p>
-					<a href="{{'/user/'.$userSubscription->boards->user->username.'/profile'}}"><span class="glyphicon glyphicon-user"></span> <span>{{{ $userSubscription->boards->user->username }}}</span></a>
-					<a href="{{{ '/boards/'.$userSubscription->boards->id }}}"><span class="glyphicon glyphicon-eye-open"></span> <span>{{$userSubscription->boards->relationships()->count()}} {{ \Illuminate\Support\Pluralizer::plural('Subscriber', $userSubscription->boards->relationships()->count()) }}</span></a>
+					<a class="in-front" href="{{'/user/'.$userSubscription->boards->user->username.'/profile'}}"><span class="glyphicon glyphicon-user"></span> <span>{{{ $userSubscription->boards->user->username }}}</span></a>
+					<a class="in-front" href="{{{ '/boards/'.$userSubscription->boards->id }}}"><span class="glyphicon glyphicon-eye-open"></span> <span>{{$userSubscription->boards->relationships()->count()}} {{ \Illuminate\Support\Pluralizer::plural('Subscriber', $userSubscription->boards->relationships()->count()) }}</span></a>
 					@if ($userSubscription->boards->user_id !== Auth::user()->id) 
 						@if ($userSubscription->boards->relationships()->where('user_id', '=', Auth::user()->id)->first())
-							<form  method="post" action="{{{ URL::to('unsubscribe') }}}" autocomplete="off" enctype="multipart/form-data">
-							<input type="hidden" name="_token" value="{{{ Session::getToken() }}}" />
-							
-							<!-- CSRF Token -->
-							<input type="hidden" name="_token" value="{{{ csrf_token() }}}" /> 
-							<!-- ./ csrf token -->
-							
-							<input type="hidden" name="board_title" value="{{{ $userSubscription->boards->title }}}" />
+							<form class="in-front"  method="post" action="{{{ URL::to('unsubscribe') }}}" autocomplete="off" enctype="multipart/form-data">
+								<input type="hidden" name="_token" value="{{{ Session::getToken() }}}" />
+								
+								<!-- CSRF Token -->
+								<input type="hidden" name="_token" value="{{{ csrf_token() }}}" /> 
+								<!-- ./ csrf token -->
+								
+								<input type="hidden" name="board_title" value="{{{ $userSubscription->boards->title }}}" />
 
-							<input type="hidden" name="board_id" value="{{{ $userSubscription->boards->id }}}" />
+								<input type="hidden" name="board_id" value="{{{ $userSubscription->boards->id }}}" />
 
-							<button type="submit" class="btn btn-danger">Unsubscribe</button>
+								<button type="submit" class="btn btn-danger">Unsubscribe</button>
 							</form>
 						@else
-						<form  method="post" action="{{{ URL::to('follow') }}}" autocomplete="off" enctype="multipart/form-data">
+						<form class="in-front" method="post" action="{{{ URL::to('follow') }}}" autocomplete="off" enctype="multipart/form-data">
 							<input type="hidden" name="_token" value="{{{ Session::getToken() }}}" />
 							
 							<!-- CSRF Token -->
@@ -184,7 +184,8 @@
 							<button type="submit" class="btn btn-success">Subscribe</button>
 						</form>
 						@endif
-					@endif 
+					@endif
+					<a href="{{{ '/boards/'.$userSubscription->boards->id }}}"><div class="board-link-container"></div></a> 
 
 				</div>		
 

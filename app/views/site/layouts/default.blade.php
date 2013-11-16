@@ -21,12 +21,13 @@
         {{ HTML::style('assets/compiled/public/assets/css/less/master-1d9e692f5ab97232a45bfdad34ffd850.css') }}
         {{ HTML::style('assets/css/global.css') }}
 
-		<!-- CSS
+		<!-- JS
 		================================================== -->
 		{{ HTML::script('//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js') }}
 		{{ HTML::script('//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js') }}
 
-		{{ HTML::script('assets/js/jquery.jeditable.mini.js') }}  
+		{{ HTML::script('assets/js/jquery.jeditable.mini.js') }}
+		{{ HTML::script('assets/js/jquery.form-validator.min.js') }}       
 		{{ HTML::script('assets/js/index.js') }}            
 
 		<style>
@@ -71,7 +72,7 @@
 					</ul>
 				</div>
 				<div class="section subscriptions-section">
-					<a href="{{{ URL::to('/user/'.(Auth::user()->username).'/profile') }}}"><div class="section-header subscriptions-header">
+					<a class="subscriptions-href" href="{{{ URL::to('/user/'.(Auth::user()->username).'/profile#subscriptions') }}}"><div class="section-header subscriptions-header">
 						<h1>SUBSCRIPTIONS</h1>
 					</div></a>
 					<ul class="section-list subscriptions-list">
