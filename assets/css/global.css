@@ -631,12 +631,14 @@ hr {
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
   position: fixed;
-  bottom: -445px;
+  bottom: -465px;
   padding-right: 300px;
   width: 100%;
   text-align: center; }
   .view-board .create-new-container.form-visible {
     bottom: 0px; }
+  .view-board .create-new-container.form-hidden {
+    bottom: -465px; }
   .view-board .create-new-container .create-new-block {
     -webkit-transition: background 0.25s ease;
     -moz-transition: background 0.25s ease;
@@ -771,14 +773,20 @@ hr {
         transition: all 0.25s ease;
         width: 100%;
         border-bottom: 1px solid #E7E7E7;
-        height: 100px;
+        height: 110px;
         padding: 30px;
         overflow: hidden; }
         .view-board .create-new-container .form-container form .form-field-container.hidden {
           padding: 0px;
           height: 0px; }
+        .view-board .create-new-container .form-container form .form-field-container .help-block {
+          margin: 0; }
       .view-board .create-new-container .form-container form .form-content-container {
-        height: 200px; }
+        height: 210px; }
+        .view-board .create-new-container .form-container form .form-content-container .help-block {
+          width: 100%;
+          padding: 0;
+          margin: 0; }
       .view-board .create-new-container .form-container form .add-description {
         font-size: 20pt;
         text-align: left;
@@ -964,8 +972,21 @@ hr {
 
 .subscribe-form {
   position: absolute;
-  right: 20px;
-  top: 60px; }
+  right: 48px;
+  top: 62px;
+  color: white !important; }
+  .subscribe-form:hover {
+    color: #96cc97 !important; }
+  .subscribe-form button {
+    background: rgba(159, 221, 240, 0);
+    border: 0;
+    font-size: 19px;
+    font-weight: normal;
+    padding-left: 5px; }
+    .subscribe-form button:hover {
+      background: rgba(159, 221, 240, 0);
+      border: 0;
+      color: #96cc97; }
 
 .block-list {
   list-style-type: none;
@@ -1195,7 +1216,7 @@ hr {
 
 .subscribed {
   position: absolute;
-  right: 54px;
+  right: 43px;
   top: 65px !important;
   font-size: 13pt;
   padding: 3px;
@@ -1254,3 +1275,221 @@ hr {
     cursor: pointer;
     text-decoration: none;
     margin-left: 15px; }
+
+.help-block {
+  color: white !important;
+  background: rgba(248, 151, 151, 0.93);
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px; }
+
+.board-list .create-new-container {
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  position: fixed;
+  bottom: -560px;
+  padding-right: 300px;
+  width: 100%;
+  text-align: center;
+  z-index: 10000; }
+  .board-list .create-new-container.form-visible {
+    bottom: 0px; }
+  .board-list .create-new-container.form-hidden {
+    bottom: -410px; }
+  .board-list .create-new-container .create-new-block {
+    -webkit-transition: background 0.25s ease;
+    -moz-transition: background 0.25s ease;
+    -ms-transition: background 0.25s ease;
+    -o-transition: background 0.25s ease;
+    transition: background 0.25s ease;
+    z-index: 10000;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    font-size: 47pt;
+    margin-left: auto;
+    margin-right: auto;
+    background: #4593c1; }
+    .board-list .create-new-container .create-new-block:hover {
+      cursor: pointer;
+      background: #6ba9ce; }
+    .board-list .create-new-container .create-new-block.form-visible {
+      background: #cc0000; }
+    .board-list .create-new-container .create-new-block .add-container {
+      -webkit-transition: all 0.25s ease;
+      -moz-transition: all 0.25s ease;
+      -ms-transition: all 0.25s ease;
+      -o-transition: all 0.25s ease;
+      transition: all 0.25s ease;
+      text-decoration: none;
+      color: white;
+      -webkit-transform: rotateZ(0deg);
+      -moz-transform: rotateZ(0deg);
+      -ms-transform: rotateZ(0deg);
+      -o-transform: rotateZ(0deg);
+      transform: rotateZ(0deg); }
+      .board-list .create-new-container .create-new-block .add-container.form-visible {
+        -webkit-transform: rotateZ(45deg);
+        -moz-transform: rotateZ(45deg);
+        -ms-transform: rotateZ(45deg);
+        -o-transform: rotateZ(45deg);
+        transform: rotateZ(45deg);
+        margin-left: 6px; }
+  .board-list .create-new-container .form-container {
+    width: 100%;
+    height: 100%;
+    background: #f4f4f4;
+    -moz-box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #b4b4b4; }
+    .board-list .create-new-container .form-container .form-tabs {
+      border-bottom: 1px solid #E7E7E7;
+      margin-bottom: 5px;
+      height: 50px; }
+      .board-list .create-new-container .form-container .form-tabs .form-tab {
+        width: 50%;
+        float: left;
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 14pt;
+        border-collapse: collapse; }
+        .board-list .create-new-container .form-container .form-tabs .form-tab.selected {
+          background: #4593c1;
+          color: white; }
+        .board-list .create-new-container .form-container .form-tabs .form-tab:hover {
+          background: #4593c1;
+          color: white;
+          cursor: pointer; }
+      .board-list .create-new-container .form-container .form-tabs .tab-text {
+        padding-bottom: 12px;
+        border-right: 1px solid #E7E7E7; }
+    .board-list .create-new-container .form-container form {
+      -webkit-transition: all 0.25s ease;
+      -moz-transition: all 0.25s ease;
+      -ms-transition: all 0.25s ease;
+      -o-transition: all 0.25s ease;
+      transition: all 0.25s ease;
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0px;
+      background: white;
+      border: 1px solid #E7E7E7;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      .board-list .create-new-container .form-container form label {
+        font-size: 20pt;
+        text-align: left;
+        width: 82%;
+        font-weight: normal;
+        color: #9b9b9b;
+        margin-bottom: 20px; }
+      .board-list .create-new-container .form-container form input {
+        -webkit-transition: background 0.25s ease;
+        -moz-transition: background 0.25s ease;
+        -ms-transition: background 0.25s ease;
+        -o-transition: background 0.25s ease;
+        transition: background 0.25s ease;
+        border: 0px solid #E7E7E7;
+        box-shadow: 0;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        font-size: 20pt; }
+        .board-list .create-new-container .form-container form input:hover {
+          background: rgba(159, 221, 240, 0.2);
+          cursor: text; }
+        .board-list .create-new-container .form-container form input:focus {
+          background: white !important; }
+      .board-list .create-new-container .form-container form textarea {
+        -webkit-transition: background 0.25s ease;
+        -moz-transition: background 0.25s ease;
+        -ms-transition: background 0.25s ease;
+        -o-transition: background 0.25s ease;
+        transition: background 0.25s ease;
+        border: 0px solid #E7E7E7;
+        box-shadow: 0;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+        font-size: 20pt;
+        height: 150px; }
+        .board-list .create-new-container .form-container form textarea:hover {
+          background: rgba(159, 221, 240, 0.2);
+          cursor: text; }
+        .board-list .create-new-container .form-container form textarea:focus {
+          background: white !important; }
+      .board-list .create-new-container .form-container form .form-field-container {
+        -webkit-transition: all 0.25s ease;
+        -moz-transition: all 0.25s ease;
+        -ms-transition: all 0.25s ease;
+        -o-transition: all 0.25s ease;
+        transition: all 0.25s ease;
+        width: 100%;
+        border-bottom: 1px solid #E7E7E7;
+        height: 110px;
+        padding: 30px;
+        overflow: hidden; }
+        .board-list .create-new-container .form-container form .form-field-container.hidden {
+          padding: 0px;
+          height: 0px; }
+        .board-list .create-new-container .form-container form .form-field-container .help-block {
+          margin: 0; }
+      .board-list .create-new-container .form-container form .form-content-container {
+        height: 210px; }
+        .board-list .create-new-container .form-container form .form-content-container .help-block {
+          width: 100%;
+          padding: 0;
+          margin: 0; }
+      .board-list .create-new-container .form-container form .add-description {
+        font-size: 20pt;
+        text-align: left;
+        font-weight: normal;
+        color: #9b9b9b;
+        margin-bottom: 20px;
+        padding-left: 57px;
+        border-bottom: 0px; }
+        .board-list .create-new-container .form-container form .add-description:hover {
+          color: #4593c1;
+          cursor: pointer; }
+      .board-list .create-new-container .form-container form .form-photo-container {
+        -webkit-transition: all 0.25s ease;
+        -moz-transition: all 0.25s ease;
+        -ms-transition: all 0.25s ease;
+        -o-transition: all 0.25s ease;
+        transition: all 0.25s ease;
+        height: 150px; }
+      .board-list .create-new-container .form-container form .block-form-title {
+        width: 85%; }
+      .board-list .create-new-container .form-container form .block-form-content {
+        width: 85%; }
+      .board-list .create-new-container .form-container form .create-button {
+        -webkit-transition: background 0.25s ease;
+        -moz-transition: background 0.25s ease;
+        -ms-transition: background 0.25s ease;
+        -o-transition: background 0.25s ease;
+        transition: background 0.25s ease;
+        width: 100%;
+        background: #4593c1;
+        color: white;
+        text-align: center;
+        border: 0;
+        font-size: 20pt; }
+        .board-list .create-new-container .form-container form .create-button:hover {
+          background: #35779e; }
+      .board-list .create-new-container .form-container form .photo-input {
+        text-align: center;
+        width: 82%;
+        margin: 0 auto;
+        border: 0;
+        font-size: 12pt;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+        .board-list .create-new-container .form-container form .photo-input:hover {
+          background: white; }

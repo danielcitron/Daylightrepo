@@ -47,7 +47,7 @@
 					
 					<input type="hidden" name="block_title" value="{{{$block->title}}}" />
 					<input type="hidden" name="block_id" value="{{{$block->id}}}" />
-					<input type="file" data-validation="required" placeholder="Choose a photo to upload" name="block_photo" id="block_photo" />
+					<input type="file" data-validation="required" data-validation-error-msg="Please select a photo." placeholder="Choose a photo to upload" name="block_photo" id="block_photo" />
 					<button type="submit" class="btn btn-success">Update Photo</button>
 				</form>
 			@endif

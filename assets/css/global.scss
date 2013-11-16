@@ -1013,13 +1013,17 @@ hr {
 	.create-new-container {
 		@include transition(all .25s ease);
 		position: fixed;
-		bottom: -445px;
+		bottom: -465px;
 		padding-right: 300px;
 		width: 100%;
 		text-align: center;
 
 		&.form-visible {
 			bottom: 0px;
+		}
+
+		&.form-hidden {
+			bottom: -465px;
 		}
 
 		.create-new-block {
@@ -1158,7 +1162,7 @@ hr {
 					@include transition(all .25s ease);
 					width: 100%;
 					border-bottom: 1px solid #E7E7E7;
-					height: 100px;
+					height: 110px;
 					padding: 30px;
 					overflow: hidden;
 
@@ -1166,10 +1170,20 @@ hr {
 						padding: 0px;
 						height: 0px;
 					}
+
+					.help-block {
+						margin: 0;
+					}
 				}
 
 				.form-content-container {
-					height: 200px;
+					height: 210px;
+
+					.help-block {
+						width: 100%;
+						padding: 0;
+						margin: 0;
+					}
 				}
 
 				.add-description {
@@ -1418,8 +1432,32 @@ hr {
 
 .subscribe-form {
 	position: absolute;
-	right: 20px;
-	top: 60px;
+	right: 48px;
+	top: 62px;
+	color: white !important;
+
+	&:hover {
+		color: $green !important;
+	}
+
+
+	span {
+
+	}
+
+	button {
+		background: rgba($blue, 0);
+		border: 0;
+		font-size: 19px;
+		font-weight: normal;
+		padding-left: 5px;
+
+		&:hover {
+			background: rgba($blue, 0);
+			border: 0;
+			color: $green;
+		}
+	}
 }
 
 .block-list {
@@ -1697,7 +1735,7 @@ hr {
 
 .subscribed {
 	position: absolute;
-	right: 54px;
+	right: 43px;
 	top: 65px !important;
 	font-size: 13pt;
 	padding: 3px;
@@ -1753,4 +1791,255 @@ hr {
 		text-decoration: none;
 		margin-left: 15px;
 	}
+}
+
+.help-block {
+	color: white !important;
+	background: rgba(248, 151, 151, 0.93);
+	text-align: center;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.board-list {
+	.create-new-container {
+		@include transition(all .25s ease);
+		position: fixed;
+		bottom: -560px;
+		padding-right: 300px;
+		width: 100%;
+		text-align: center;
+		z-index: 10000;
+
+		&.form-visible {
+			bottom: 0px;
+		}
+
+		&.form-hidden {
+			bottom: -410px;
+		}
+
+		.create-new-block {
+			@include transition(background .25s ease);
+			z-index: 10000;
+			width: 100px;
+			height: 100px;
+			border-radius: 0px;
+			-moz-border-radius: 0px;
+			-webkit-border-radius: 0px;
+			font-size: 47pt;
+			margin-left: auto;
+			margin-right: auto;
+			background: $darkblue;
+
+			&:hover {
+				cursor: pointer;
+				background: lighten($darkblue, 10%);
+			}
+
+			&.form-visible {
+				background: $red;
+			}
+
+
+
+
+			.add-container {
+				@include transition(all .25s ease);
+				text-decoration: none;
+				color: white;
+				@include transform(rotateZ(0deg));
+				
+				&.form-visible {
+					@include transform(rotateZ(45deg));
+					margin-left: 6px;
+				}
+
+
+			}
+			
+		}
+		.form-container {
+			width: 100%;
+			height: 100%;
+			background: lighten($lightgray, 35%);
+			@include box-shadow(0px -1px 10px rgba(black, .2));
+			border-top: 1px solid lighten($lightgray, 10%);
+			
+			.form-tabs {
+				border-bottom: 1px solid #E7E7E7;
+				margin-bottom: 5px;
+				height: 50px;
+
+				.form-tab {
+					width: 50%;
+					float: left;
+					text-align: center;
+					padding: 10px 0px;
+					font-size: 14pt;
+					border-collapse: collapse;
+
+					&.selected {
+						background: $darkblue;
+						color: white;
+					}
+
+					&:hover {
+						background: $darkblue;
+						color: white;
+						cursor: pointer;
+					}
+				}
+
+				.tab-text {
+					padding-bottom: 12px;
+					border-right: 1px solid #E7E7E7;
+				}
+			}
+
+			form {
+				@include transition(all .25s ease);
+				width: 400px;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 0px;
+				background: white;
+				border: 1px solid #E7E7E7;
+				margin-top: 20px;
+				margin-bottom: 20px;
+
+				label {
+					font-size: 20pt;
+					text-align: left;
+					width: 82%;
+					font-weight: normal;
+					color: $lightgray;
+					margin-bottom: 20px;
+				}
+
+				input {
+					@include transition(background .25s ease);
+					border: 0px solid #E7E7E7;
+					box-shadow: 0;
+					@include border-radius(0px);
+					font-size: 20pt;
+
+					&:hover {
+						background: rgba($blue, .2);
+						cursor: text;
+					}
+
+					&:focus {
+						background: white !important;
+					}
+				}
+
+				textarea {
+					@include transition(background .25s ease);
+					border: 0px solid #E7E7E7;
+					box-shadow: 0;
+					@include border-radius(0px);
+					font-size: 20pt;
+					height: 150px;
+
+					&:hover {
+						background: rgba($blue, .2);
+						cursor: text;
+					}
+
+					&:focus {
+						background: white !important;
+					}
+
+				}
+
+				.form-field-container {
+					@include transition(all .25s ease);
+					width: 100%;
+					border-bottom: 1px solid #E7E7E7;
+					height: 110px;
+					padding: 30px;
+					overflow: hidden;
+
+					&.hidden {
+						padding: 0px;
+						height: 0px;
+					}
+
+					.help-block {
+						margin: 0;
+					}
+				}
+
+				.form-content-container {
+					height: 210px;
+
+					.help-block {
+						width: 100%;
+						padding: 0;
+						margin: 0;
+					}
+				}
+
+				.add-description {
+					font-size: 20pt;
+					text-align: left;
+					font-weight: normal;
+					color: $lightgray;
+					margin-bottom: 20px;
+					padding-left: 57px;
+					border-bottom: 0px;
+
+					&:hover {
+						color: $darkblue;
+						cursor: pointer;
+					}
+
+				}
+
+				.form-photo-container {
+					@include transition(all .25s ease);
+					height: 150px;
+				}
+
+				.block-form-title {
+					width: 85%;
+				}
+
+				.block-form-content {
+					width: 85%;
+				}
+
+				.create-button {
+					@include transition(background .25s ease);
+					width: 100%;
+					background: $darkblue;
+					color: white;
+					text-align: center;
+					border: 0;
+					font-size: 20pt;
+
+					&:hover {
+						background: darken($darkblue, 10%);
+					}
+				}
+
+				.photo-input {
+					text-align: center;
+					width: 82%;
+					margin: 0 auto;
+					border: 0;
+					font-size: 12pt;
+					overflow: hidden;
+					text-overflow: ellipsis;
+
+					&:hover {
+						background: white;
+					}
+				}
+			}
+		}
+		
+	}
+
 }

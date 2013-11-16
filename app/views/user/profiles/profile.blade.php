@@ -84,7 +84,37 @@
 			</li>
 	@endforeach
 	@if($userProfile->id == Auth::user()->id)
-	<div class="create-container"><a href="{{{ URL::to('/create/board') }}}" class=" new-button btn btn-small btn-info iframe"><span>+</span></a></div>
+		<div class="create-new-container">
+			<div class="create-new-block">
+				<div class="add-container">+</div>
+			</div>
+			<div class="form-container">
+				<form  method="post" action="{{ URL::to('board/create') }}" autocomplete="off" enctype="multipart/form-data">
+					<input type="hidden" name="_token" value="{{{ Session::getToken() }}}" />
+
+					<!-- CSRF Token -->
+					<input type="hidden" name="_token" value="{{{ csrf_token() }}}" />
+					<!-- ./ csrf token -->
+		            
+		            <div class="form-field-container form-title-container">
+						<input class="block-form-title" placeholder="Board Title" type="text" name="title" id="title" data-validation="required" data-validation-error-msg="Please provide a title." />
+					</div>
+					<div class="form-field-container form-photo-container">
+			            <label for="photo">Cover Photo (required)</label>
+			        	</br>
+		           		<input class="photo-input" type="file" placeholder="Choose a photo to upload" name="cover_photo" id="cover_photo" data-validation-error-msg="Please provide a cover photo." data-validation="required" />
+		        	</div>
+					<div class="form-field-container form-content-container">
+						<textarea placeholder="Description" class="block-form-content" data-validation="required" name="description" data-validation-error-msg="Please provide a description." value="description"></textarea>
+					</div>
+
+		            
+					<div>
+							<button type="submit" class="create-button">Create</button>
+					</div>
+				</form>
+			</div>
+		</div>
 	@endif
 </ul>
 

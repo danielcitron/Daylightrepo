@@ -131,6 +131,7 @@ $(document).ready(function() {
 		$('.create-new-block').click(function() {
 			if ($('.create-new-block').hasClass('form-visible')) {
 			    $('.create-new-container').removeClass('form-visible');
+			    $('.create-new-container').addClass('form-hidden');
 				$('.create-new-block').removeClass('form-visible');
 				$('.add-container').removeClass('form-visible');
 				$('.tab-text').addClass('selected');
@@ -144,6 +145,7 @@ $(document).ready(function() {
 			}
 			else {
 				$('.create-new-container').addClass('form-visible');
+				$('.create-new-container').removeClass('form-hidden');
 				$('.create-new-block').addClass('form-visible');
 				$('.add-container').addClass('form-visible');
 			}
@@ -192,7 +194,8 @@ $(document).ready(function() {
 			$('.add-description').addClass('hidden');
 		});
 
-		$.validate();
+		$.validate({
+		});
 
 
 		

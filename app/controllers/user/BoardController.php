@@ -30,9 +30,6 @@ class BoardController extends AdminController {
 		$input = Input::all();
 
 		$rules = array(
-			'title' => 'required|min:3',
-			'description' => 'required|min:3',
-            'cover_photo' => 'required'
 		);
 
 		if (Input::hasFile('cover_photo')) {
