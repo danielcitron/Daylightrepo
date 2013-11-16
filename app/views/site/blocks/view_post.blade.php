@@ -9,8 +9,10 @@
 
 {{-- Content --}}
 @section('content')
-<a class="back-to-board" href="{{{'/boards/'.$block->boards->id}}}">Back to {{$block->boards->title}}</a>
-<div class="expand-block-width"><span class="glyphicon glyphicon-zoom-in"></span></div>
+<div class="block-menu-bar">
+	<a class="back-to-board" href="{{{'/boards/'.$block->boards->id}}}">< Back to {{$block->boards->title}}</a>
+	<div class="expand-block-width"><span class="glyphicon glyphicon-zoom-in"></span></div>
+</div>
 <div class="block-comment-container">
 	@if($block->user_id == Auth::user()->id)
 		<form class="delete-form" method="post" action="{{{ URL::to($block->title.'/delete') }}}" autocomplete="off" enctype="multipart/form-data">
@@ -120,7 +122,7 @@
 	<form class="comment-add"  method="post" action="{{{ '/block/add/comment' }}}" autocomplete="off" enctype="multipart/form-data">
 		<input type="hidden" name="_token" value="{{{ Session::getToken() }}}" />
 
-		<textarea class="col-md-12 input-block-level" rows="4" name="comment" id="comment">{{{ Request::old('comment') }}}</textarea>
+		<textarea class="col-md-12 input-block-level" rows="4" data-validation="required" data-validation-error-msg="Please provide a comment." name="comment" id="comment">{{{ Request::old('comment') }}}</textarea>
 		<input type="hidden" name="block_id" value="{{{$block->id}}}" />
 		<input type="file" placeholder="Choose a photo to upload" name="comment_photo" id="comment_photo" />
 		<button type="submit" class="btn btn-success">Reply</button>

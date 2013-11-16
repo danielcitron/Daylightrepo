@@ -163,9 +163,13 @@ $(document).ready(function() {
 		$('.expand-block-width').click(function() {
 			if ($('.block-comment-container').hasClass('expanded')) {
 			    $('.block-comment-container').removeClass('expanded');
+			    $('.expand-block-width span').removeClass('glyphicon-zoom-out');
+			    $('.expand-block-width span').addClass('glyphicon-zoom-in');
 			}
 			else {
 				$('.block-comment-container').addClass('expanded');
+				$('.expand-block-width span').addClass('glyphicon-zoom-out');
+			    $('.expand-block-width span').removeClass('glyphicon-zoom-in');
 			}
 		});
 

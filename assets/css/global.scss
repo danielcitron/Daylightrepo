@@ -188,6 +188,7 @@ a {
 body {
 	font-family: BariolThin;
 	background: #F0F0F0;
+	min-width: 752px;
 
 	h1 {
 		font-family: BariolThin;
@@ -633,7 +634,7 @@ body {
 	border: 1px solid lighten($lightgray, 25%);
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 30px;
+	margin-top: 70px;
 	text-align: center;
 	font-family: BariolThin;
 	@include border-radius(10px 10px 0px 0px);
@@ -1754,23 +1755,16 @@ hr {
 
 
 .expand-block-width {
-	width: 70px;
-	height: 50px;
-	background: white;
-	@include border-radius(10px);
+	text-align: right;
+	color: lighten($lightgray, 15%);
+	z-index: 10000000;
 	position: fixed;
 	right: 55px;
-	top: 30px;
-	text-align: center;
-	padding: 8px;
-	padding-top: 17px;
-	z-index: 10000000;
-	@include box-shadow(0px -1px 10px rgba(black, .2));
-
+	top: 18px;
 
 	&:hover {
-		background: darken(white, 1%);
 		cursor: pointer;
+		color: $lightgray;
 	}
 }
 
@@ -1779,14 +1773,11 @@ hr {
 	@include transition(margin .25s ease);
 	margin: 20px;
 	padding: 20px;
-	background: white;
 	font-size: 16pt;
 	text-decoration: none;
-	@include border-radius(10px);
-	position: fixed;
+	position: relative;
 
 	&:hover {
-		background: darken(white, 1%);
 		cursor: pointer;
 		text-decoration: none;
 		margin-left: 15px;
@@ -2041,4 +2032,15 @@ hr {
 		
 	}
 
+}
+
+.block-menu-bar {
+	width: 100%;
+	background: white;
+	position: fixed;
+	top: 0;
+	height: 50px;
+	z-index: 10000;
+	padding: 12px;
+	border-bottom: 1px solid lighten($lightgray, 35%);
 }
