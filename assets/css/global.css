@@ -631,14 +631,14 @@ hr {
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
   position: fixed;
-  bottom: -465px;
+  bottom: -485px;
   padding-right: 300px;
   width: 100%;
   text-align: center; }
   .view-board .create-new-container.form-visible {
     bottom: 0px; }
   .view-board .create-new-container.form-hidden {
-    bottom: -465px; }
+    bottom: -485px; }
   .view-board .create-new-container .create-new-block {
     -webkit-transition: background 0.25s ease;
     -moz-transition: background 0.25s ease;
@@ -776,7 +776,7 @@ hr {
         height: 110px;
         padding: 30px;
         overflow: hidden; }
-        .view-board .create-new-container .form-container form .form-field-container.hidden {
+        .view-board .create-new-container .form-container form .form-field-container.hidden-container {
           padding: 0px;
           height: 0px; }
         .view-board .create-new-container .form-container form .form-field-container .help-block {
@@ -1298,7 +1298,7 @@ hr {
   .board-list .create-new-container.form-visible {
     bottom: 0px; }
   .board-list .create-new-container.form-hidden {
-    bottom: -410px; }
+    bottom: -560px; }
   .board-list .create-new-container .create-new-block {
     -webkit-transition: background 0.25s ease;
     -moz-transition: background 0.25s ease;
@@ -1436,9 +1436,6 @@ hr {
         height: 110px;
         padding: 30px;
         overflow: hidden; }
-        .board-list .create-new-container .form-container form .form-field-container.hidden {
-          padding: 0px;
-          height: 0px; }
         .board-list .create-new-container .form-container form .form-field-container .help-block {
           margin: 0; }
       .board-list .create-new-container .form-container form .form-content-container {
@@ -1465,6 +1462,8 @@ hr {
         -o-transition: all 0.25s ease;
         transition: all 0.25s ease;
         height: 150px; }
+        .board-list .create-new-container .form-container form .form-photo-container.hidden-container {
+          height: 150px; }
       .board-list .create-new-container .form-container form .block-form-title {
         width: 85%; }
       .board-list .create-new-container .form-container form .block-form-content {

@@ -161,12 +161,12 @@
 	            <div class="form-field-container form-title-container">
 					<input class="block-form-title" placeholder="Block Title" type="text" name="title" id="title" data-validation="required" data-validation-error-msg="Please provide a title." />
 				</div>
-				<div class="form-field-container form-photo-container hidden">
+				<div class="form-field-container form-photo-container hidden-container">
 		            <label for="photo">Photo</label>
 		        	</br>
 	           		<input class="photo-input" type="file" placeholder="Choose a photo to upload" name="block_photo" id="block_photo" data-validation-error-msg="Please provide a photo." data-validation="" />
 	        	</div>
-	        	<div class="form-field-container add-description hidden">Add Description</div>
+	        	<div class="form-field-container add-description hidden-container">Add Description</div>
 				<div class="form-field-container form-content-container">
 					<textarea placeholder="Block Content" class="block-form-content" data-validation="required" name="content" data-validation-error-msg="Please provide a description." value="content"></textarea>
 				</div>

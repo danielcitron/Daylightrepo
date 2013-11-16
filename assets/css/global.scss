@@ -1013,7 +1013,7 @@ hr {
 	.create-new-container {
 		@include transition(all .25s ease);
 		position: fixed;
-		bottom: -465px;
+		bottom: -485px;
 		padding-right: 300px;
 		width: 100%;
 		text-align: center;
@@ -1023,7 +1023,7 @@ hr {
 		}
 
 		&.form-hidden {
-			bottom: -465px;
+			bottom: -485px;
 		}
 
 		.create-new-block {
@@ -1166,7 +1166,7 @@ hr {
 					padding: 30px;
 					overflow: hidden;
 
-					&.hidden {
+					&.hidden-container {
 						padding: 0px;
 						height: 0px;
 					}
@@ -1816,7 +1816,7 @@ hr {
 		}
 
 		&.form-hidden {
-			bottom: -410px;
+			bottom: -560px;
 		}
 
 		.create-new-block {
@@ -1961,11 +1961,6 @@ hr {
 					padding: 30px;
 					overflow: hidden;
 
-					&.hidden {
-						padding: 0px;
-						height: 0px;
-					}
-
 					.help-block {
 						margin: 0;
 					}
@@ -2000,6 +1995,10 @@ hr {
 				.form-photo-container {
 					@include transition(all .25s ease);
 					height: 150px;
+
+					&.hidden-container {
+						height: 150px;
+					}
 				}
 
 				.block-form-title {

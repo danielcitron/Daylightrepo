@@ -137,11 +137,11 @@ $(document).ready(function() {
 				$('.tab-text').addClass('selected');
 				
 				$('.tab-photos').removeClass('selected');
-				$('.form-photo-container').addClass('hidden');
-				$('.add-description').addClass('hidden');
-				$('.photo-input').attr("required", "false");
-				$('.block-form-content').attr("required", "true");
-				$('.form-content-container').removeClass('hidden');
+				$('.form-photo-container').addClass('hidden-container');
+				$('.add-description').addClass('hidden-container');
+				$('.photo-input').attr('data-validation', '');
+				$('.block-form-content').attr('data-validation', 'required');
+				$('.form-content-container').removeClass('hidden-container');
 			}
 			else {
 				$('.create-new-container').addClass('form-visible');
@@ -172,26 +172,26 @@ $(document).ready(function() {
 		$('.tab-text').click(function() {
 			$('.tab-text').addClass('selected');
 			$('.tab-photos').removeClass('selected');
-			$('.form-photo-container').addClass('hidden');
-			$('.add-description').addClass('hidden');
+			$('.form-photo-container').addClass('hidden-container');
+			$('.add-description').addClass('hidden-container');
 			$('.photo-input').attr('data-validation', '');
 			$('.block-form-content').attr('data-validation', 'required');
-			$('.form-content-container').removeClass('hidden');
+			$('.form-content-container').removeClass('hidden-container');
 		});
 
 		$('.tab-photos').click(function() {
 			$('.tab-text').removeClass('selected');
 			$('.tab-photos').addClass('selected');
-			$('.form-photo-container').removeClass('hidden');
-			$('.form-content-container').addClass('hidden');
+			$('.form-photo-container').removeClass('hidden-container');
+			$('.form-content-container').addClass('hidden-container');
 			$('.photo-input').attr('data-validation', 'required');
 			$('.block-form-content').attr('data-validation', '');
-			$('.add-description').removeClass('hidden');
+			$('.add-description').removeClass('hidden-container');
 		});
 
 		$('.add-description').click(function() {
-			$('.form-content-container').removeClass('hidden');
-			$('.add-description').addClass('hidden');
+			$('.form-content-container').removeClass('hidden-container');
+			$('.add-description').addClass('hidden-container');
 		});
 
 		$.validate({
